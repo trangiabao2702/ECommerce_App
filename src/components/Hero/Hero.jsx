@@ -1,18 +1,18 @@
 import React from 'react'
 
-import "./Hero.css"
+import css from "./Hero.module.css"
 import HeroImg from "../../assets/hero.png"
 import { RiShoppingBagFill } from "react-icons/ri"
 import { BsArrowRight } from "react-icons/bs"
 
 const Hero = () => {
   return (
-    <div className="container">
+    <div className={css.container}>
         {/* left side */}
-        <div className="h_sides">
-            <span className="text1">Skin protection cream</span>
+        <div className={css.h_sides}>
+            <span className={css.text1}>Skin protection cream</span>
 
-            <div className="text2">
+            <div className={css.text2}>
                 <span>Trendy Collection</span>
                 <span>Seedily say has suitable disposal and boy. Exercise joy man children rejoiced.</span>
             </div>
@@ -20,13 +20,13 @@ const Hero = () => {
 
 
         {/* middle side */}
-        <div className="wrapper">
-            <div className="blueCircle"></div>
+        <div className={css.wrapper}>
+            <div className={css.blueCircle}></div>
             <img src={HeroImg} alt="Hero" width={600} />
-            <div className="cart2">
+            <div className={css.cart2}>
                 <RiShoppingBagFill />
 
-                <div className="signup">
+                <div className={css.signup}>
                     <span>Best Signup Offers</span>
 
                     <div>
@@ -38,13 +38,13 @@ const Hero = () => {
 
         
         {/* right side */}
-        <div className="h_sides">
-            <div className="traffic">
+        <div className={css.h_sides}>
+            <div className={css.traffic}>
                 <span>1.5m</span>
                 <span>Monthly Traffic</span>
             </div>
 
-            <div className="customers">
+            <div className={css.customers}>
                 <span>100k</span>
                 <span>Happy Customers</span>
             </div>
