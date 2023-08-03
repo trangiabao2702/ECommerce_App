@@ -164,3 +164,35 @@
     margin: 2rem 0rem;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .blueCircle {
+    top: 0;
+    width: 16rem;
+    height: 72%;
+  }
+
+  .container {
+    height: 35rem;
+  }
+
+  .container .h_sides {
+    height: 26rem;
+  }
+
+  .wrapper {
+    height: 22rem;
+  }
+
+  .wrapper > img {
+    top: 3.85rem;
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .cart2 {
+    transform: scale(0.7);
+    right: -2rem;
+    bottom: 1rem;
+  }
+}
