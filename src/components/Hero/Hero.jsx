@@ -25,9 +25,9 @@ const Hero = () => {
       <div className={css.wrapper}>
         <motion.div initial={{ bottom: "2rem" }} whileInView={{ bottom: "0rem" }} className={css.blueCircle} transition={transition}></motion.div>
 
-        <img initial={{ bottom: "-2rem" }} whileInView={{ bottom: "0rem" }} transition={transition} src={HeroImg} alt="Hero" width={600} />
+        <motion.img initial={{ bottom: "-2rem" }} whileInView={{ bottom: "0rem" }} transition={transition} src={HeroImg} alt="Hero" width={600} />
 
-        <div initial={{ right: "4%" }} whileInView={{ right: "2%" }} transition={transition} className={css.cart2}>
+        <motion.div initial={{ right: "4%" }} whileInView={{ right: "2%" }} transition={transition} className={css.cart2}>
           <RiShoppingBagFill />
 
           <div className={css.signup}>
@@ -37,7 +37,7 @@ const Hero = () => {
               <BsArrowRight />
             </div>
           </div>
-        </div>
+        </motion.div>
       </div>
 
       {/* right side */}
