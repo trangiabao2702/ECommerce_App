@@ -2,9 +2,11 @@
 
 This is a ECommerce website for a brand using ReactJS.
 
+![Screenshot](./screenshots/EcommerceWeb1.png)
+
 ## Running the project locally
 
-  ### `npm run start`
+### `npm run start`
 
 ## Features
 
